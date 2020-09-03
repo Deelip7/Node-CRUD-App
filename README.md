@@ -10,6 +10,7 @@ $ npm init
 
 ```shell
 $ npm install express
+$ npm i ejs express-ejs-layouts
 ```
 
 ### Install nodemon
@@ -26,7 +27,7 @@ $ npm run dev
 ```shell
 $ heroku login
 $ heroku create
-$ heroku git:remote -a thawing-falls-30759
+$ heroku git:remote <URL>
 $ git push heroku master
 $ heroku open
 ```
